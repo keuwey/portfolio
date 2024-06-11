@@ -700,6 +700,20 @@ section {
   resize: none;
 }
 
+.btn-send {
+  background-color: var(--color-grey-5);
+  color: var(--color-grey-3);
+  padding: 17px 20px;
+  text-align: center;
+  border: 1px solid var(--color-grey-5);
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.btn-send > span {
+  margin-left: 10px;
+}
+
 .contact-content-con .right-contact .i-c-2 {
   display: flex;
 }

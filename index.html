@@ -6,19 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="./styles/styles.css" />
+
+    <!-- Google fonts imports -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- EmailJS scripts imports -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "Q3rh0Ptybb6jCUvAn",
+        });
+      })();
+    </script>
   </head>
   <body class="main-content">
     <header class="container header active" id="home">
@@ -35,16 +39,11 @@
             Um desenvolvedor web.
           </h1>
           <p>
-            Sou um programador apaixonado por tecnologia sempre buscando
-            aprender mais e me desenvolver tanto profissional como pessoalmente.
+            Sou um programador apaixonado por tecnologia sempre buscando aprender mais e me desenvolver tanto profissional como
+            pessoalmente.
           </p>
           <div class="btn-con">
-            <a
-              href="kevin-halley-dev-cv.pdf"
-              class="main-btn"
-              download="kevin-halley-dev-cv.pdf"
-              target="_blank"
-            >
+            <a href="kevin-halley-dev-cv.pdf" class="main-btn" download="kevin-halley-dev-cv.pdf" target="_blank">
               <span class="btn-text">Download CV</span>
               <span class="btn-icon"><i class="fas fa-download"></i></span>
             </a>
@@ -64,14 +63,12 @@
           <div class="left-about">
             <h4>Sobre mim</h4>
             <p>
-              Atualmente estou estudando Java. Tenho conhecimentos em HTML, CSS,
-              JavaScript, Bootstrap e Python, tendo desenvolvimento alguns
-              projetos práticos utilizando essas tecnologias. Além disso, também
-              tenho conhecimento intermediário de GNU/Linux. <br />
+              Atualmente estou estudando Java. Tenho conhecimentos em HTML, CSS, JavaScript, Bootstrap e Python, tendo
+              desenvolvimento alguns projetos práticos utilizando essas tecnologias. Além disso, também tenho conhecimento
+              intermediário de GNU/Linux. <br />
               <br />
-              Sou apaixonado pelo aprendizado de idiomas. Tenho inglês avançado
-              e estou estudando Alemão. Além disso, planejo me tornar um
-              poliglota e ser fluente em Japonês, Espanhol e Francês.
+              Sou apaixonado pelo aprendizado de idiomas. Tenho inglês avançado e estou estudando Alemão. Além disso, planejo me
+              tornar um poliglota e ser fluente em Japonês, Espanhol e Francês.
             </p>
           </div>
           <div class="right-about">
@@ -199,14 +196,11 @@
             <p class="tl-duration">2023 - 2027</p>
             <h5>
               Graduação em Ciência da Computação
-              <span>
-                - Centro Universitário União das Américas Descomplica
-              </span>
+              <span> - Centro Universitário União das Américas Descomplica </span>
             </h5>
             <p>
-              Atualmente faço bacharelado em Ciência da Computação pela
-              Faculdade Descomplica, onde aprendo desde Java e arquitetura de
-              computadores até BI e Comunicação Empresarial.
+              Atualmente faço bacharelado em Ciência da Computação pela Faculdade Descomplica, onde aprendo desde Java e
+              arquitetura de computadores até BI e Comunicação Empresarial.
             </p>
           </div>
           <div class="timeline-item">
@@ -214,11 +208,13 @@
               <i class="fas fa-briefcase"></i>
             </div>
             <p class="tl-duration">2017 - 2022</p>
-            <h5>Curso Técnico em Automção Industrial <span> - IFBA</span></h5>
+            <h5>
+              Curso Técnico em Automção Industrial
+              <span> - IFBA</span>
+            </h5>
             <p>
-              Curso técnico integrado em Automação Industrial pelo Instituto
-              Federal da Bahia, onde pude aprender todo o necessário para poder
-              atuar na indústria.
+              Curso técnico integrado em Automação Industrial pelo Instituto Federal da Bahia, onde pude aprender todo o
+              necessário para poder atuar na indústria.
             </p>
           </div>
           <div class="timeline-item">
@@ -227,10 +223,7 @@
             </div>
             <p class="tl-duration">Ago, 2022 - Dez, 2022</p>
             <h5>Vendedor<span> - Sabor do Coco </span></h5>
-            <p>
-              Trabalhei como vendedor na empresa familiar de venda de doces
-              caseiros que fundei em conjunto com minha irmã.
-            </p>
+            <p> Trabalhei como vendedor na empresa familiar de venda de doces caseiros que fundei em conjunto com minha irmã. </p>
           </div>
           <div class="timeline-item">
             <div class="tl-icon">
@@ -238,10 +231,7 @@
             </div>
             <p class="tl-duration">2016 - 2018</p>
             <h5>Curso de Extensão em Letras<span> - NUPEL (UFBA)</span></h5>
-            <p>
-              Curso oferecido pelo Núcleo Permanente de Extensão em Letras da
-              UFBA, onde cheguei ao nível B1.2 em Alemão.
-            </p>
+            <p> Curso oferecido pelo Núcleo Permanente de Extensão em Letras da UFBA, onde cheguei ao nível B1.2 em Alemão. </p>
           </div>
         </div>
       </section>
@@ -252,9 +242,7 @@
             <span class="bg-text">Meus Trabalhos</span>
           </h2>
         </div>
-        <p class="port-text">
-          Aqui está alguns dos projetos que eu já desenvolvi.
-        </p>
+        <p class="port-text"> Aqui está alguns dos projetos que eu já desenvolvi. </p>
         <div class="portfolios">
           <div class="portfolio-item">
             <div class="image">
@@ -263,18 +251,10 @@
             <div class="hover-items">
               <h3>Menu Digital Courier</h3>
               <div class="icons">
-                <a
-                  href="https://github.com/muryllohenriq/final-gama-g04-front"
-                  target="_blank"
-                  class="icon"
-                >
+                <a href="https://github.com/muryllohenriq/final-gama-g04-front" target="_blank" class="icon">
                   <i class="fab fa-github"></i>
                 </a>
-                <a
-                  href="https://courier-tau.vercel.app/"
-                  target="_blank"
-                  class="icon"
-                >
+                <a href="https://courier-tau.vercel.app/" target="_blank" class="icon">
                   <i class="fas fa-link"></i>
                 </a>
               </div>
@@ -287,11 +267,7 @@
             <div class="hover-items">
               <h3>API Lavie Saúde Mental</h3>
               <div class="icons">
-                <a
-                  href="https://github.com/AlexandreSAmorimAJ/LaVieSaudeMental-hands-on-3"
-                  target="_blank"
-                  class="icon"
-                >
+                <a href="https://github.com/AlexandreSAmorimAJ/LaVieSaudeMental-hands-on-3" target="_blank" class="icon">
                   <i class="fab fa-github"></i>
                 </a>
               </div>
@@ -304,18 +280,10 @@
             <div class="hover-items">
               <h3>Pokédex</h3>
               <div class="icons">
-                <a
-                  href="https://github.com/keuwey/react-pokedex"
-                  target="_blank"
-                  class="icon"
-                >
+                <a href="https://github.com/keuwey/react-pokedex" target="_blank" class="icon">
                   <i class="fab fa-github"></i>
                 </a>
-                <a
-                  href="https://react-pokedex-virid.vercel.app/"
-                  target="_blank"
-                  class="icon"
-                >
+                <a href="https://react-pokedex-virid.vercel.app/" target="_blank" class="icon">
                   <i class="fas fa-link"></i>
                 </a>
               </div>
@@ -323,19 +291,12 @@
           </div>
           <div class="portfolio-item">
             <div class="image">
-              <img
-                src="./img/python_pong_game.png"
-                alt="Implementação em Python do jogo Pong"
-              />
+              <img src="./img/python_pong_game.png" alt="Implementação em Python do jogo Pong" />
             </div>
             <div class="hover-items">
               <h3>Python Pong Game</h3>
               <div class="icons">
-                <a
-                  href="https://github.com/keuwey/pong-game-python"
-                  target="_blank"
-                  class="icon"
-                >
+                <a href="https://github.com/keuwey/pong-game-python" target="_blank" class="icon">
                   <i class="fab fa-github"></i>
                 </a>
               </div>
@@ -343,19 +304,12 @@
           </div>
           <div class="portfolio-item">
             <div class="image">
-              <img
-                src="./img/netflix_clone.png"
-                alt="Clone do serviço de streaming mais famoso do mundo"
-              />
+              <img src="./img/netflix_clone.png" alt="Clone do serviço de streaming mais famoso do mundo" />
             </div>
             <div class="hover-items">
               <h3>Netflix clone</h3>
               <div class="icons">
-                <a
-                  href="https://github.com/keuwey/Clone-netflix"
-                  target="_blank"
-                  class="icon"
-                >
+                <a href="https://github.com/keuwey/Clone-netflix" target="_blank" class="icon">
                   <i class="fab fa-github"></i>
                 </a>
               </div>
@@ -363,26 +317,15 @@
           </div>
           <div class="portfolio-item">
             <div class="image">
-              <img
-                src="./img/skatepark.png"
-                alt="Agora eu sei exatamente como andar de skate"
-              />
+              <img src="./img/skatepark.png" alt="Agora eu sei exatamente como andar de skate" />
             </div>
             <div class="hover-items">
               <h3>SkatePark</h3>
               <div class="icons">
-                <a
-                  href="https://github.com/keuwey/SkatePark"
-                  target="_blank"
-                  class="icon"
-                >
+                <a href="https://github.com/keuwey/SkatePark" target="_blank" class="icon">
                   <i class="fab fa-github"></i>
                 </a>
-                <a
-                  href="https://skatepark-phi.vercel.app/"
-                  target="_blank"
-                  class="icon"
-                >
+                <a href="https://skatepark-phi.vercel.app/" target="_blank" class="icon">
                   <i class="fas fa-link"></i>
                 </a>
               </div>
@@ -390,26 +333,15 @@
           </div>
           <div class="portfolio-item">
             <div class="image">
-              <img
-                src="./img/js_timer.png"
-                alt="Um temporizador feito em JavaScript"
-              />
+              <img src="./img/js_timer.png" alt="Um temporizador feito em JavaScript" />
             </div>
             <div class="hover-items">
               <h3>JS Timer</h3>
               <div class="icons">
-                <a
-                  href="https://github.com/keuwey/js-timer"
-                  target="_blank"
-                  class="icon"
-                >
+                <a href="https://github.com/keuwey/js-timer" target="_blank" class="icon">
                   <i class="fab fa-github"></i>
                 </a>
-                <a
-                  href="https://keuwey.github.io/js-timer/"
-                  target="_blank"
-                  class="icon"
-                >
+                <a href="https://keuwey.github.io/js-timer/" target="_blank" class="icon">
                   <i class="fas fa-link"></i>
                 </a>
               </div>
@@ -417,19 +349,12 @@
           </div>
           <div class="portfolio-item">
             <div class="image">
-              <img
-                src="./img/crossin_turtle.png"
-                alt="Um jogo feito com a biblioteca Turtle do Python"
-              />
+              <img src="./img/crossin_turtle.png" alt="Um jogo feito com a biblioteca Turtle do Python" />
             </div>
             <div class="hover-items">
               <h3>Crossing Turtle</h3>
               <div class="icons">
-                <a
-                  href="https://github.com/keuwey/crossing-turtle"
-                  target="_blank"
-                  class="icon"
-                >
+                <a href="https://github.com/keuwey/crossing-turtle" target="_blank" class="icon">
                   <i class="fab fa-github"></i>
                 </a>
               </div>
@@ -437,19 +362,12 @@
           </div>
           <div class="portfolio-item">
             <div class="image">
-              <img
-                src="./img/blank_states_img.gif"
-                alt="Um jogo feito com a biblioteca Turtle do Python"
-              />
+              <img src="./img/blank_states_img.gif" alt="Um jogo feito com a biblioteca Turtle do Python" />
             </div>
             <div class="hover-items">
               <h3>50 US States Game</h3>
               <div class="icons">
-                <a
-                  href="https://github.com/keuwey/50-states-game"
-                  target="_blank"
-                  class="icon"
-                >
+                <a href="https://github.com/keuwey/50-states-game" target="_blank" class="icon">
                   <i class="fab fa-github"></i>
                 </a>
               </div>
@@ -457,26 +375,15 @@
           </div>
           <div class="portfolio-item">
             <div class="image">
-              <img
-                src="./img/to-do_list.png"
-                alt="Um simples aplicação TO-DO list"
-              />
+              <img src="./img/to-do_list.png" alt="Um simples aplicação TO-DO list" />
             </div>
             <div class="hover-items">
               <h3>To-Do List App</h3>
               <div class="icons">
-                <a
-                  href="https://github.com/keuwey/lista-de-tarefas"
-                  target="_blank"
-                  class="icon"
-                >
+                <a href="https://github.com/keuwey/lista-de-tarefas" target="_blank" class="icon">
                   <i class="fab fa-github"></i>
                 </a>
-                <a
-                  href="https://keuwey.github.io/lista-de-tarefas/"
-                  target="_blank"
-                  class="icon"
-                >
+                <a href="https://keuwey.github.io/lista-de-tarefas/" target="_blank" class="icon">
                   <i class="fas fa-link"></i>
                 </a>
               </div>
@@ -493,50 +400,33 @@
             <div class="blog">
               <a
                 href="https://www.linkedin.com/posts/keuwey_mypy-activity-7201343509319135232-uvT0?utm_source=share&utm_medium=member_desktop"
-                target="_blank"
-              >
-                <img
-                  src="./img/mypy_type_checker.png"
-                  alt="Post sobre o MyPy"
-                />
+                target="_blank">
+                <img src="./img/mypy_type_checker.png" alt="Post sobre o MyPy" />
               </a>
               <div class="blog-text">
                 <a
                   href="https://www.linkedin.com/posts/keuwey_mypy-activity-7201343509319135232-uvT0?utm_source=share&utm_medium=member_desktop"
-                  target="_blank"
-                >
+                  target="_blank">
                   <h4>Tipando dados em Python com o MyPy</h4>
                 </a>
-                <p>
-                  Nessa postagem eu mostro como é simples (e benéfico) usar um
-                  type checker como o MyPy
-                </p>
+                <p> Nessa postagem eu mostro como é simples (e benéfico) usar um type checker como o MyPy </p>
               </div>
             </div>
             <div class="blog">
               <a
                 href="https://www.linkedin.com/posts/keuwey_pipenv-python-dev-workflow-for-humans-activity-7198826917427367936-KLED?utm_source=share&utm_medium=member_desktop"
-                target="_blank"
-              >
-                <img
-                  src="./img/pipenv_python.png"
-                  alt="Imagem da ferramenta Pipenv"
-                />
+                target="_blank">
+                <img src="./img/pipenv_python.png" alt="Imagem da ferramenta Pipenv" />
               </a>
               <div class="blog-text">
                 <a
                   href="https://www.linkedin.com/posts/keuwey_pipenv-python-dev-workflow-for-humans-activity-7198826917427367936-KLED?utm_source=share&utm_medium=member_desktop"
-                  target="_blank"
-                >
-                  <h4>
-                    Pipenv: fluxo de trabalho de desenvolvimento Python para
-                    humanos
-                  </h4>
+                  target="_blank">
+                  <h4> Pipenv: fluxo de trabalho de desenvolvimento Python para humanos </h4>
                 </a>
                 <p>
-                  Neste post eu mostro o porquê de usar uma ferramenta como o
-                  Pipenv para gerenciamento de ambientes virtuais e dependências
-                  de projetos pode ser uma mão na roda.
+                  Neste post eu mostro o porquê de usar uma ferramenta como o Pipenv para gerenciamento de ambientes virtuais e
+                  dependências de projetos pode ser uma mão na roda.
                 </p>
               </div>
             </div>
@@ -549,15 +439,12 @@
               <div class="blog-text">
                 <a
                   href="https://www.linkedin.com/posts/keuwey_desenvolvendo-sua-primeira-api-com-fastapi-activity-7203220326451699712-9f0J?utm_source=share&utm_medium=member_desktop"
-                  target="_blank"
-                >
+                  target="_blank">
                   <h4>Bootcamps da Digital Innovation One (DIO)</h4>
                 </a>
                 <p>
-                  Neste post eu falo sobre a importância da
-                  multidisciplinaridade no contexto das equipes de tecnologia e
-                  mostro como você pode desenvolver habilidades concretas com os
-                  Bootcamps gratuitos da DIO.
+                  Neste post eu falo sobre a importância da multidisciplinaridade no contexto das equipes de tecnologia e mostro
+                  como você pode desenvolver habilidades concretas com os Bootcamps gratuitos da DIO.
                 </p>
               </div>
             </div>
@@ -586,7 +473,7 @@
                     <span>Email:</span>
                   </div>
                   <p>
-                    <span>keuwey@protonmail.com</span>
+                    <span>keuwey@gmail.com</span>
                   </p>
                 </div>
                 <div class="contact-item">
@@ -620,20 +507,25 @@
               </div>
             </div>
             <div class="right-contact">
-              <form action="" class="contact-form">
+              <div id="success"></div>
+              <form action="" id="contact-form">
                 <div class="input-control i-c-2">
-                  <input type="text" required placeholder="SEU NOME" />
-                  <input type="email" required placeholder="SEU EMAIL" />
+                  <input type="text" id="name" placeholder="SEU NOME" />
+                  <input type="email" id="email" required placeholder="SEU EMAIL" />
                 </div>
                 <div class="input-control">
-                  <input type="text" required placeholder="ASSUNTO" />
+                  <input type="text" id="subject" required placeholder="ASSUNTO" />
                 </div>
                 <div class="input-control">
-                  <textarea
-                    cols="15"
-                    rows="8"
-                    placeholder="Digite a sua mensagem..."
-                  ></textarea>
+                  <textarea id="message" cols="15" rows="8" required placeholder="Digite a sua mensagem..."></textarea>
+                </div>
+                <div>
+                  <a class="btn-send" id="sendMessageButton">
+                    Enviar
+                    <span>
+                      <i class="fa-solid fa-paper-plane"></i>
+                    </span>
+                  </a>
                 </div>
               </form>
             </div>
@@ -661,6 +553,8 @@
     <div class="theme-btn">
       <i class="fas fa-adjust"></i>
     </div>
-    <script src="./app.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/contact.js"></script>
+    <script src="https://kit.fontawesome.com/a265da8202.js" crossorigin="anonymous"></script>
   </body>
 </html>

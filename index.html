@@ -13,16 +13,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 
-    <!-- EmailJS scripts imports -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-
-    <script type="text/javascript">
-      (function () {
-        emailjs.init({
-          publicKey: "Q3rh0Ptybb6jCUvAn",
-        });
+    <script src="js/app.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="js/contact.js"></script>
+    <!-- Alterei o formato da função do emailJs para uma forma contraida -->
+    <script>
+      (function() {
+          emailjs.init("OeYr0mmmnAlFlaqep");
       })();
-    </script>
+  </script>
   </head>
   <body class="main-content">
     <header class="container header active" id="home">
@@ -507,8 +506,8 @@
               </div>
             </div>
             <div class="right-contact">
-              <div id="success"></div>
-              <form action="" id="contact-form">
+              
+              <form class="contact-form">
                 <div class="input-control i-c-2">
                   <input type="text" id="name" placeholder="SEU NOME" />
                   <input type="email" id="email" required placeholder="SEU EMAIL" />
@@ -520,12 +519,15 @@
                   <textarea id="message" cols="15" rows="8" required placeholder="Digite a sua mensagem..."></textarea>
                 </div>
                 <div>
-                  <a class="btn-send" id="sendMessageButton">
+                  <!-- Alterei o <a> por <button> para resolver o bug -->
+                  <button class="btn-send" id="sendMessageButton">
                     Enviar
                     <span>
                       <i class="fa-solid fa-paper-plane"></i>
                     </span>
-                  </a>
+                  </button>
+                  <!-- Adicionei a div sucess para exibir o resultado do envio, por isso estava dando nulo-->
+                  <div id="success"></div>
                 </div>
               </form>
             </div>
@@ -553,8 +555,6 @@
     <div class="theme-btn">
       <i class="fas fa-adjust"></i>
     </div>
-    <script src="./js/app.js"></script>
-    <script src="./js/contact.js"></script>
     <script src="https://kit.fontawesome.com/a265da8202.js" crossorigin="anonymous"></script>
   </body>
 </html>

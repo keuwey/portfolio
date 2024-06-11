@@ -703,11 +703,19 @@ section {
 .btn-send {
   background-color: var(--color-grey-5);
   color: var(--color-grey-3);
-  padding: 17px 20px;
+  padding: 15px 20px;
   text-align: center;
   border: 1px solid var(--color-grey-5);
   border-radius: 30px;
   cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-send:hover {
+  color: var(--color-grey-6);
+  background-color: var(--color-secondary);
 }
 
 .btn-send > span {

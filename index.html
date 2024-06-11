@@ -13,9 +13,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 
-    <script src="js/app.js"></script>
-    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-    <script src="js/contact.js"></script>
+    <!-- EmailJS scripts imports -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="./js/contact.js"></script>
+
     <!-- Alterei o formato da função do emailJs para uma forma contraida -->
     <script>
       (function() {
@@ -506,8 +507,8 @@
               </div>
             </div>
             <div class="right-contact">
-              
-              <form class="contact-form">
+              <div id="success"></div>
+              <form action="" id="contact-form">
                 <div class="input-control i-c-2">
                   <input type="text" id="name" placeholder="SEU NOME" />
                   <input type="email" id="email" required placeholder="SEU EMAIL" />
@@ -555,6 +556,7 @@
     <div class="theme-btn">
       <i class="fas fa-adjust"></i>
     </div>
+    <script src="./js/app.js"></script>
     <script src="https://kit.fontawesome.com/a265da8202.js" crossorigin="anonymous"></script>
   </body>
 </html>

@@ -17,7 +17,7 @@ Hi. My name is Kevin and this is the repository of my personal portfolio. In ord
 - Fully responsive
 - Fully functional contact form
 
-## Stack utilizada
+## Used Stack
 
 **Front-end:** HTML, CSS, Javascript
 

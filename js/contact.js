@@ -40,17 +40,15 @@ document.addEventListener("DOMContentLoaded", function () {
           console.log("SUCCESS!", response.status, response.text);
           var successDiv = document.getElementById("success");
           successDiv.innerHTML =
-            "<div class='alert alert-success'>" +
-            "<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button>" +
-            "<strong>Sua mensagem foi enviada. </strong></div>";
+            "<div style='color: white; background-color: #27ae60; border-radius: 30px; padding: 12px 17px; text-align: center'>" +
+            "<strong>Sua mensagem foi enviada com sucesso!.</strong></div>";
           document.getElementById("contact-form").reset();
         },
         function (error) {
           console.log("FAILED...", error);
           var successDiv = document.getElementById("success");
           successDiv.innerHTML =
-            "<div class='alert alert-danger'>" +
-            "<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button>" +
+            "<div style='color: white; background-color: red; border-radius: 30px; padding: 12px 17px; text-align: center'>" +
             "<strong>Desculpe " +
             escapeHTML(name) +
             ", parece que nosso servidor de e-mails não está respondendo. Por favor, tente novamente mais tarde!</strong></div>";

@@ -15,3 +15,4 @@ Hi. My name is Kevin and this is the repository of my personal portfolio. In ord
 - Dark and light themes
 - Working "Download CV" button
 - Fully responsive
+- Fully functional contact form

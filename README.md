@@ -16,3 +16,9 @@ Hi. My name is Kevin and this is the repository of my personal portfolio. In ord
 - Working "Download CV" button
 - Fully responsive
 - Fully functional contact form
+
+## Stack utilizada
+
+**Front-end:** HTML, CSS, Javascript
+
+**Back-end:** Github Pages (Deploy), EmailJS (contact form)

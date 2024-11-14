@@ -301,6 +301,13 @@ section {
   padding-bottom: 4rem;
 }
 
+.dev-icons {
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .about-stats .progress-bars {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

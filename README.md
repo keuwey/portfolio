@@ -8,7 +8,7 @@ Hi. My name is Kevin and this is the repository of my personal portfolio. In ord
 
 ## Deploy
 
-[Acess here](https://keuwey.github.io/portfolio/) the deploy for this web page. It was made using only github pages.
+[Access here](https://portfolio-7ra1ritli-keuweys-projects.vercel.app/) the deploy for this web page.
 
 ## Functionalities
 
@@ -21,4 +21,4 @@ Hi. My name is Kevin and this is the repository of my personal portfolio. In ord
 
 **Front-end:** HTML, CSS, Javascript
 
-**Back-end:** Github Pages (Deploy), EmailJS (contact form)
+**Back-end:** EmailJS (contact form)

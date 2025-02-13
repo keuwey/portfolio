@@ -8,7 +8,7 @@ Hi. My name is Kevin and this is the repository of my personal portfolio. In ord
 
 ## Deploy
 
-[Access here](https://portfolio-ten-pearl-47.vercel.app/) the deploy for this web page.
+[Access here](https://keuwey.github.io/portfolio/) the deploy for this web page.
 
 ## Functionalities
 
